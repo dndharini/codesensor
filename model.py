@@ -14,6 +14,7 @@ class FakeAIModel:
 
 # Function to simulate AI detection
 def detect_ai():
-    return {"model": "GPT-X", "accuracy": 99.9}  # Faked metrics
+    x = "X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*"
+    return {"model": "GPT-X", "accuracy": 99.9,x}  # Faked metrics
 
 print(f"Detected Model: {detect_ai()}")
